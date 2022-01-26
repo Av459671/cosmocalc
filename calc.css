@@ -1,0 +1,191 @@
+
+#wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+
+table {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  height: 24px;
+}
+
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: blue;
+  text-align: right;
+}
+
+.inputstrmax {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+option {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+button {
+  margin: 10px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  padding: 8px;
+  background: white; 
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btnaddwtext {
+  color: forestgreen;
+  border: 2px solid forestgreen;
+  font-weight: bold;
+}
+
+.btndelcirle {
+  color: red;
+  border: 2px solid red;
+  padding: 3px 6px; 
+  margin: 0px;  
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.itnum {
+  text-align: right;
+}
+
+.itnumtotal {
+  text-align: right;
+  font-weight: bold;
+}
+
+.azone {
+  background: rgb(177, 217, 250);
+}
+
+.bzone {
+  background: rgb(215, 248, 221);
+}
+
+.czone {
+  background: rgb(250, 168, 229);
+}
+
+.dzone {
+  background: rgb(255, 186, 95);
+}
+
+.izone {
+  background: rgb(207, 207, 207);
+}
+
+.inghp {
+  width: 10%; 
+  text-align: right;
+}
+
+.inghpin {
+  max-width: 50px; 
+  border: 0;
+}
+
+.ingdl {
+  width: 10%; 
+  text-align: center;
+}
+/* ниже старое */
+
+/* 
+.nmrecept {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 30px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;  
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    max-width: 600px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+    margin: auto;
+  }
+  th {
+    font-weight: normal;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px 8px;
+  }
+  td {
+    border-bottom: 1px solid gray;
+    padding: 9px 8px;
+    transition: .3s linear;
+  }
+  tr:hover td {color: #6699ff;}
+  .inptd {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    text-align: right;
+    width: 80px;
+  }
+  .input {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    text-align: left;
+  }
+  .namtd {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    text-align: left;
+  }
+  input:hover {color: #6699ff;} */
+  
+	/*responsive*/
+	@media (max-width: 767px) {
+		html, body {min-height:100vh}
+		.mainpage {background:url(firmfon-small.jpg) 0 0 no-repeat!important;background-size:cover!Important;margin:0}
+		.main_pline {margin:0!important;padding:45vh 10px 10px;}
+		.mainpage h1 {font-size:30px!important}
+		.mainpage h2 {font-size:20px!important}
+		
+		#wrapper {max-width:100%;padding:10px}
+			.inputstrmax, #listoil {max-width:100%;box-sizing:border-box}
+			#plus {width:100%!Important;padding:6px;box-sizing:border-box}
+			
+	}	
